@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input, select {
+    margin: 10px;
+    width: 260px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+button {
+    background-color: #2980b9;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    width: 280px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1f6391;
+}
+
+table {
+    width: 90%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+td {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.back, .back2 {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin: 20px 170px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.back:hover, .back2:hover {
+    background-color: #c0392b;
+}
+
+.back2 {
+    padding: 10px 120px;
+}

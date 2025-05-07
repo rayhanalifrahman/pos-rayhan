@@ -1,0 +1,100 @@
+@media print {
+    .no-print, .actions {
+        display: none;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #1f3a93;
+    margin-top: 40px;
+    font-size: 2.2rem;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input, select {
+    padding: 8px 12px;
+    margin: 0 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+input:focus, select:focus {
+    border-color: #1f3a93;
+    outline: none;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.actions a, .actions button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.actions a {
+    background-color: #e74c3c;
+    border: none;
+}
+
+.actions a:hover {
+    background-color: #c0392b;
+}
+
+.actions button {
+    background-color: #28a745;
+    border: none;
+}
+
+.actions button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #1f3a93;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
